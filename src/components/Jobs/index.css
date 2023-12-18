@@ -1,0 +1,150 @@
+.Jobs-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.sidebar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Job-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-responsive-search-bar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #2c364c;
+  border-radius: 5px;
+}
+
+.mobile-input-search-bar {
+  width: 90%;
+  padding: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.mobile-search-icon-div {
+  width: 10%;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-search-icon {
+  color: #ffffff;
+}
+
+.website-responsive-search-bar {
+  display: none;
+}
+
+.horizontal-line {
+  width: 100%;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .Jobs-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar-container {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .mobile-responsive-search-bar {
+    display: none;
+  }
+
+  .Job-details-container {
+    width: 70%;
+  }
+
+  .website-responsive-search-bar {
+    width: 350px;
+    border: 1px solid #2c364c;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+  }
+  .input-search-bar {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+  }
+
+  .search-icon-div {
+    background-color: #202020;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 3px 3px 0;
+  }
+  .search-icon {
+    color: #ffffff;
+  }
+}
+
+.employment-list {
+  color: #ffffff;
+}
+
+.JobsDetailsList-container {
+  padding: 0;
+}
+
+.profile-loader-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.failure-view-img {
+  width: 200px;
+}
+
+@media screen and (min-width: 576px) {
+  .failure-view-img {
+    width: 500px;
+  }
+}
+
+.data-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffff;
+}

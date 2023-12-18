@@ -1,0 +1,35 @@
+.EmploymentList-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.SalaryRangeList-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.employment-heading {
+  font-size: 20px;
+}
+
+.salary-heading {
+  font-size: 20px;
+}
+
+.Employment-ListItems-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Salary-ListItems-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-items-filter-group {
+  margin-bottom: 20px;
+}

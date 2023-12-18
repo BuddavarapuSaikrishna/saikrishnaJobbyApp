@@ -1,0 +1,90 @@
+.Login-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.LoginForm-container {
+  width: 80%;
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .LoginForm-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .LoginForm-container {
+    width: 40%;
+  }
+}
+
+.website-logo-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-img {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+.username {
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #475569;
+  border-radius: 2px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.password {
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #475569;
+  border-radius: 2px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.login-button {
+  padding: 8px;
+  background-color: #6366f1;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: #ff0b37;
+}

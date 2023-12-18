@@ -1,0 +1,20 @@
+.SimilarJobs-list-items-container {
+  background-color: #272727;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .SimilarJobs-list-items-container {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .SimilarJobs-list-items-container {
+    width: 400px;
+  }
+}
